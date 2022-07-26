@@ -4,7 +4,7 @@ const port = 5000;
 // import myJson from './example.json' assert {type: 'json'};
 const countryNumber = require('./countryNum.json');
 app.get('/', (req, res) => {
-  res.json (countryNumber);
+  res.status(200).json(countryNumber);
 })
 //Initialization of app
 app.listen(port, () => {
