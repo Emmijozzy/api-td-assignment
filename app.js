@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 4000;
+const port = 5000;
 // import myJson from './example.json' assert {type: 'json'};
 const countryNumber = require('./countryNum.json');
 app.get('/', (req, res) => {
