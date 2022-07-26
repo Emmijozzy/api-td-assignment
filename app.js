@@ -6,7 +6,7 @@ const countryNumber = require('./countryNum.json');
 app.get('/', (req, res) => {
   res.json (countryNumber);
 })
-
+//Initialization of app
 app.listen(port, () => {
   console.log(`App is listening on port ${port}`)
 });
